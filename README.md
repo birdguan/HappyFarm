@@ -2,13 +2,13 @@
 
 
 
-ÎïÁªÍøÄÁ³¡¹ÜÀíÏµÍ³APP¶Ë
+ç‰©è”ç½‘ç‰§åœºç®¡ç†ç³»ç»ŸAPPç«¯
 
 
 
-²¿·Ö½ØÍ¼£º
+éƒ¨åˆ†æˆªå›¾ï¼š
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/login.png)
+(http://github.com/birdguan/HappyFarm/raw/master/screenshot/login.png)
 
 
 ![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/menu.png)
@@ -20,5 +20,5 @@
 ![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/estrusInfo.png)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/HappyFarm/screenshot/msgManager.png)
+![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/msgManager.png)
 
