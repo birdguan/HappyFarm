@@ -20,5 +20,5 @@
 ![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/estrusInfo.png)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/msgManager.png)
+![image](http://github.com/birdguan/HappyFarm/raw/master/HappyFarm/screenshot/msgManager.png)
 
