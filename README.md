@@ -10,15 +10,14 @@
 
 <img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/login.jpg"/>
 
+<img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/menu.jpg"/>
 
-![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/menu.jpg)
+<img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/baseInfo.jpg"/>
+
+<img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/estrusInfo.jpg"/>
+
+<img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/msgManager.jpg"/>
 
 
-![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/baseInfo.jpg)
 
-
-![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/estrusInfo.jpg)
-
-
-![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/msgManager.jpg)
 
