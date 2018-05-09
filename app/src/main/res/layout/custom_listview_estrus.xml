@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/textView_estrusTerminal"
+        android:layout_width="83dp"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="#20232323"
+        android:text="终端号" />
+
+    <TextView
+        android:id="@+id/textView_estrusSlightCounts"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:background="#20232323"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="发情数据" />
+
+    <TextView
+        android:id="@+id/textView_estrusMiddleCounts"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:background="#20232323"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="记录时间" />
+    <TextView
+        android:id="@+id/textView_estrusStrenuousCounts"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:background="#20232323"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="记录时间" />
+</LinearLayout>

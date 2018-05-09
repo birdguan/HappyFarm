@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView_spinnerGender"
+    android:layout_width="210dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:text="TextView" />

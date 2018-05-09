@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_infoTheme"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/lightblue"
+        android:background="#20232323"
+        android:layout_marginTop="10dp"
+        android:text="消息主题" />
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#20232323"
+        android:text="消息正文" />
+
+
+    <TextView
+
+        android:id="@+id/textView_infoName"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:gravity="right"
+        android:textColor="#505050"
+        android:layout_gravity="center_horizontal"
+        android:background="#20232323"
+        android:text="署名" />
+
+    <TextView
+        android:id="@+id/textView_infoData"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:gravity="right"
+        android:textColor="#505050"
+        android:background="#20232323"
+        android:layout_gravity="center_horizontal"
+        android:text="时间" />
+
+</LinearLayout>

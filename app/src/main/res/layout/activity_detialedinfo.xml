@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background_detailedinfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="终端号: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_ternimalNumber"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+                <TextView
+                    android:id="@+id/textView_earNumber"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="耳标号: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_earNumber"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_yuelin"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="月龄: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_yueling"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+                <TextView
+                    android:id="@+id/textView_sex"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="性别: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_sex"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_huase"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="花色: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_huase"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+                <TextView
+                    android:id="@+id/textView_sex"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="重量(kg): "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_weight"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_laiyuan"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="来源: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_laiyuan"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/textView_leibie"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="类别: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_leibie"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textView_type"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="品种: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_type"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_tixing"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="体型: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_tixing"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_birthData"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="出生日期: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_birthData"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_xumuzhuangtai"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="畜牧状态: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_xumuzhuangtai"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+                <TextView
+                    android:id="@+id/textView_xumujieduan"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="畜牧阶段: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_xumujieduan"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_hezuohu"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="合作户: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_hezuohu"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView_fanzhizhuangtai"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginLeft="4dp"
+                    android:text="繁殖状态: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_fanzhizhuangtai"
+                    android:layout_width="93dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/textView_chaungjianshijian"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="创建时间: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_chuangjianshijian"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_muchangmingcheng"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="牧场名称: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_muchangmingcheng"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_muchangdizhi"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="牧场地址: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_muchangdizhi"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_contactPhone"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|right"
+                    android:text="联系电话: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_contactPhone"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeActionLabel="确定"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top">
+
+                <TextView
+                    android:id="@+id/textView_state"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:gravity="center_vertical|right"
+                    android:text="说明: "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_state"
+                    android:layout_width="270dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/edittext_shape"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:selectAllOnFocus="false"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_save"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:text="保存" />
+
+                <Button
+                    android:id="@+id/button_getLocation"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="定位轨迹" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

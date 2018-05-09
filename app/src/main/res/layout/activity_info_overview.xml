@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#20323232"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="终端号"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText_terminaltoQuery"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView13"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="耳标号"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/editText2"-->
+                <!--android:layout_width="95dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:text="" />-->
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView14"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="合作户"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/editText3"-->
+                <!--android:layout_width="270dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:text="" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView15"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="牧场名称"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinner"-->
+                <!--android:layout_width="270dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_query"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"
+                android:text="查询"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <!--<Button-->
+                <!--android:id="@+id/button_addInfo"-->
+                <!--android:layout_width="90dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--android:text="新增"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#20323232"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="#40323232"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="终端号" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:background="#40323232"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="2dp"
+                android:text="耳标号" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="#40323232"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="2dp"
+                android:text="品种" />
+
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="97dp"
+                android:layout_height="30dp"
+                android:background="#40323232"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:text="月龄" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/infoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

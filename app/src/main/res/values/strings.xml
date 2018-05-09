@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">开心牧场</string>
+    <string name="project_info1">开心牧场</string>
+    <string name="prompt_userno">手机号码</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_register">新用户注册</string>
+    <string name="error_invalid_userno">需要输入手机号码</string>
+    <string name="error_invalid_password">需要输入密码</string>
+    <string name="title_activity_login_default">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register_newUser">新用户注册</string>
+    <string name="select_role">选择身份</string>
+    <string name="phoneNumber">手机号码</string>
+    <string name="getCode">获取验证码</string>
+    <string name="code">验   证   码</string>
+    <string name="location">行政区域</string>
+    <string name="getLocation">获取地址</string>
+    <string name="login_password">登录密码</string>
+    <string name="confirm_passsword">确认密码</string>
+    <string name="nextstep">下一步</string>
+    <string name="regist">注册</string>
+
+</resources>

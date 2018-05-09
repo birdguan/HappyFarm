@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/textView_listView_recordTime"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="记录时间"
+        android:textSize="18sp"
+        android:background="#20232323"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView_listView_feedCount"
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center"
+        android:text="进食次数"
+        android:textSize="18sp"
+        android:background="#20232323"
+        android:textColor="@color/white"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView_listView_feedID"-->
+        <!--android:layout_width="66dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginLeft="2dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="牛ID"-->
+        <!--android:background="#40232323"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="@color/white"/>-->
+
+</LinearLayout>

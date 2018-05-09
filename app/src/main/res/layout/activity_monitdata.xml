@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login" >
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="@string/project_info1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#20323232"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_menu_1"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_heart" />
+
+            <TextView
+                android:id="@+id/textView_oestrusData"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="发情数据"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

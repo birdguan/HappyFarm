@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView_overviewTerminal"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#20323232"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="终端号" />
+
+        <TextView
+            android:id="@+id/textView_overViewEarMarking"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:background="#20323232"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:text="耳标号" />
+
+        <TextView
+            android:id="@+id/textView_overview_variety"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:background="#20323232"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:text="品种" />
+
+
+        <TextView
+            android:id="@+id/textView_overviewmonthold"
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:background="#20323232"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:text="月龄" />
+    </LinearLayout>
+</LinearLayout>
