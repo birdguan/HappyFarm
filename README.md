@@ -8,17 +8,17 @@
 
 部分截图：
 
-(http://github.com/birdguan/HappyFarm/raw/master/screenshot/login.png)
+![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/login.jpg)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/menu.png)
+![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/menu.jpg)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/baseInfo.png)
+![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/baseInfo.png)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/estrusInfo.png)
+![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/estrusInfo.png)
 
 
-![image](http://github.com/birdguan/HappyFarm/raw/master/screenshot/msgManager.png)
+![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/msgManager.png)
 
