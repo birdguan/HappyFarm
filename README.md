@@ -8,7 +8,7 @@
 
 部分截图：
 
-<img width = "90" height = "160" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/login.jpg"/>
+<img width = "180" height = "320" src = "https://github.com/birdguan/HappyFarm/blob/master/screenshot/login.jpg"/>
 
 
 ![image](https://github.com/birdguan/HappyFarm/blob/master/screenshot/menu.jpg)
